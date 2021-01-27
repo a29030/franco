@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -14,8 +13,8 @@
     <link rel="stylesheet" href="./css/owl.carousel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/less/style.less" rel="stylesheet/less" type="text/css"/>
-    <script type="text/javascript" src="js/less.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script src="js/less.js"></script>
+    <script src="js/owl.carousel.js"></script>
 </head>
 <body>
 <div class="header">
@@ -122,9 +121,9 @@
                 <div class="ads-right">
                     <div class="ads-right__btn">
                         <p>Two High-end Materials</p>
-                        <a href="">
+                        <form action="/">
                             <button class="btn-shop-now">Shop Now</button>
-                        </a>
+                        </form>
                     </div>
                     <img src="img/ADS/ad1.jpg" alt="">
                 </div>
@@ -138,7 +137,6 @@
                             <div class="ads-left-top__border"></div>
                             <p class="ads-left-top__tagp ads-left-top__tagp--p1">SMALL THING</p>
                             <p class="ads-left-top__tagp ads-left-top__tagp--p2">MAKE DIFFERENT</p>
-
                         </div>
                     </div>
                     <div class="col-6 col-xl-12">
@@ -147,9 +145,9 @@
                             <div class="ads-left-bottom__btn">
                                 <p class="ads-left-bottom__btn--tagp1">FOLIO</p>
                                 <p class="ads-left-bottom__btn--tagp2">BACKPACK</p>
-                                <a href="">
+                                <form action="/">
                                     <button class="btn-shop-now">Shop Now</button>
-                                </a>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -168,9 +166,9 @@
             <div class="col-12 col-xl-3 col-md-4 col-sm-6 product-c1">
                 <div>
                     <img src="img/products/productL1C1.png" alt="">
-                    <a href="#">
+                    <form action="/">
                         <button>ADD TO CART</button>
-                    </a>
+                    </form>
                 </div>
                 <div class="description-product">
                     <p>Suspendisse id volutpat</p>
@@ -187,9 +185,9 @@
             </div>
             <div class="col-12 col-xl-3 col-md-4 col-sm-6 product-c2">
                 <img src="img/products/productL1C2.png" alt="">
-                <a href="#">
+                <form action="/">
                     <button>ADD TO CART</button>
-                </a>
+                </form>
                 <div class="description-product">
                     <p>Lorem ipsum dolor</p>
                     <p class="icon-star">
@@ -205,9 +203,9 @@
             </div>
             <div class="col-12 col-xl-3 col-md-4 col-sm-6 product-c3">
                 <img src="img/products/productL1C3.png" alt="">
-                <a href="#">
+                <form action="/">
                     <button>ADD TO CART</button>
-                </a>
+                </form>
                 <div class="description-product">
                     <p>Proin sed nulla mi</p>
                     <p class="icon-star">
@@ -222,9 +220,9 @@
             </div>
             <div class="col-12 col-xl-3 col-md-4 col-sm-6 product-c4">
                 <img src="img/products/productL1C4.png" alt="">
-                <a href="#">
+                <form action="/">
                     <button>ADD TO CART</button>
-                </a>
+                </form>
                 <div class="description-product">
                     <p>Aenean placerat</p>
                     <p class="icon-star">
@@ -240,9 +238,9 @@
             </div>
             <div class="col-12 col-xl-3 col-md-4 col-sm-6 product-c1">
                 <img src="img/products/productL2C1.png" alt="">
-                <a href="#">
+                <form action="/">
                     <button>ADD TO CART</button>
-                </a>
+                </form>
                 <div class="description-product">
                     <p>Suspendisse id volutpat</p>
                     <p class="icon-star">
@@ -258,9 +256,9 @@
             </div>
             <div class="col-12 col-xl-3 col-md-4 col-sm-6 product-c2">
                 <img src="img/products/productL2C2.png" alt="">
-                <a href="#">
+                <form action="/">
                     <button>ADD TO CART</button>
-                </a>
+                </form>
                 <div class="description-product">
                     <p>Lorem ipsum dolor</p>
                     <p class="icon-star">
@@ -276,9 +274,9 @@
             </div>
             <div class="col-12 col-xl-3 col-md-4 col-sm-6 product-c3">
                 <img src="img/products/productL2C3.png" alt="">
-                <a href="#">
+                <form action="/">
                     <button>ADD TO CART</button>
-                </a>
+                </form>
                 <div class="description-product">
                     <p>Proin sed nulla mi</p>
                     <p class="icon-star">
@@ -293,9 +291,9 @@
             </div>
             <div class="col-12 col-xl-3 col-md-4 col-sm-6 product-c4">
                 <img src="img/products/productL2C4.png" alt="">
-                <a href="#">
+                <form action="/">
                     <button>ADD TO CART</button>
-                </a>
+                </form>
                 <div class="description-product">
                     <p>Aenean placerat</p>
                     <p class="icon-star">
@@ -766,6 +764,7 @@
 
     </div>
 </div>
+<script src="js/mystyle.js"></script>
 </body>
 </html>
-<script type="text/javascript" src="js/mystyle.js"></script>
+
