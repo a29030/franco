@@ -24,7 +24,7 @@
                 <div class="row">
                 <div class="col-6">
                     <i class="fa fa-bookmark-o" aria-hidden="true" style="color: grey"></i>
-                    <span class="header-top__left">Welcome to Franco - an e-Commerce PSD Template! </span>
+                    <span class="header-top__left"> Welcome to Franco - an e-Commerce PSD Template! </span>
                 </div>
                 <div class="col-6 header-top__right">
                     <a href="">
