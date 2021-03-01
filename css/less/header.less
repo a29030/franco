@@ -1,56 +1,56 @@
-@colorTop:white;
-@colorTextHeader: grey;
-@colorTagA: black;
-.header{
-  border-bottom: 1px solid #ddd;
+.header {
+  border-bottom: 1px solid @color-border-bottom;
   margin-bottom: 28px;
-  a{
-    color: @colorTagA;
+  a {
+    color: @black;
     text-decoration: none;
   }
-  .header-top{
-    background: #222;
-    padding: 12px 0 12px 15px;
-    font-family: @Montserrat-ExtraLight;
-    &__left{
+  .header-top {
+    background: @color-bg-header;
+    padding: 13px 0 12px 15px;
+    font-family: @Montserrat;
+    i {
       color: @colorTextHeader;
       font-size: 14px;
+      margin-right: 5px;
     }
-    &__right{
+    &__left {
+      color: @colorTextHeader;
+      font-size: 13px;
+    }
+    &__right {
       text-align: right;
-      i{
-        font-size: 14px;
-      }
-      &--span{
+      &--span {
         color: @colorTextHeader;
         margin-right: 15px;
         font-size: 14px;
       }
     }
   }
-  .header-bottom{
+  .header-bottom {
     margin: 20px 0 21px 0;
-    img{
+    img {
       margin-left: 15px;
     }
-    &__menu{
+    &__menu {
       margin-left: 33px;
-      .nav-item a{
+      .nav-item a {
+        font-family: @Montserrat-Medium;
         margin-right: 29px;
-        font-size: 14px;
-        color: @colorTagA;
-        font-weight: 700;
-        :hover{
-          color: #8262b5;
-        }
+        font-size: 13px;
+        color: @black;
+        font-weight: 900;
+      }
+      a:hover {
+        color: @color-hover;
+        background-color: @while;
       }
     }
-    &__icon{
-      .header-icon{
-        width: 25px;
-        height: 25px;
+    &__icon {
+      i {
+        font-size: 26px;
       }
-      margin: 11px -3px 0 32px
+      margin: 8px -11px 0 45px
     }
   }
 }

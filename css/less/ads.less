@@ -1,25 +1,28 @@
 .ads {
     .btn-shop-now {
         font-size: 15px;
-        color: #FFF;
-        background-color: #751fad;
+        color: @while;
+        background-color: @color-hover;
         border: 0;
         height: 40px;
         width: 105px;
         float: right;
 
     }
-    .ads-right {
-        margin-left: -16px;
+    img {
+        width: 100%;
+        position: relative;
+    }
+    .ads-left {
         &__btn {
             position: absolute;
-            left: 338px;
-            top: 314px;
+            left: 45.3%;
+            top: 56%;
             z-index: 2;
             p {
                 font-size: 30px;
-                color: #000;
-                font-weight: 500;
+                color: @black;
+                font-weight: 600;
                 font-family: @pacifico;
                 margin-bottom: 8px;
             }
@@ -28,54 +31,53 @@
 
     }
 
-    .ads-left-top {
-        margin: 0 0 29px 5px;
-        &__tagp{
+    .ads-right-top {
+        margin-bottom: 30px;
+        .text-ads {
             position: absolute;
             font-weight: 400;
-            z-index: 4;
-            left: 77px;
-            &--p1{
-                color: #616161;
+            z-index: 1;
+            left: 18%;
+            top: 36%;
+            &__p1 {
+                margin-bottom: -2px;
+                color: @color-ads-p1;
                 font-size: 16px;
                 letter-spacing: 3px;
-                top: 83px;
-                font-family: @Montserrat-ExtraLight;
+                font-family: @Montserrat-Medium;
             }
-            &--p2{
-                color: black;
+            &__p2 {
+                color: @black;
                 font-family: @Montserrat-ExtraBold;
                 font-size: 18px;
                 letter-spacing: 1px;
-                top: 105px;
-
             }
         }
     }
-    .ads-left-bottom {
-        margin-left: 5px;
-        &__btn{
+    .ads-right-bottom {
+        &__btn {
             position: absolute;
-            left: 60px;
-            top: 120px;
+            left: 14%;
+            top: 36%;
             z-index: 2;
-            p{
+            p {
                 font-weight: 400;
             }
-            &--tagp1{
-                color: #616161;
+            &--tagp1 {
+                color: @color-ads-p1;
                 margin-bottom:-5px;
                 letter-spacing: 3px;
                 font-size: 16px;
-                font-family: @Montserrat-ExtraLight;
+                font-family: @Montserrat-Medium;
             }
-            &--tagp2{
-                color: black;
+            &--tagp2 {
+                margin-bottom: 15px;
+                color: @black;
                 letter-spacing: 1px;
                 font-size: 18px;
                 font-family: @Montserrat-ExtraBold;
             }
-            button{
+            button {
                 float: left;
             }
         }

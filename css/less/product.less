@@ -1,12 +1,16 @@
-.products{
-    .old-price{
+.products {
+    .old-price {
         text-decoration-line: line-through ;
+        color: @color-footer-text;
+
     }
-    .new-price{
-        color: #8262b5;
+    .new-price {
+        color: @color-hover;
+        font-weight: 600;
     }
-    button{
-        border: white;
+
+    button {
+        border: @while;
         position: absolute;
         z-index: 1;
         font-family: @Montserrat-Medium;
@@ -14,59 +18,61 @@
         width: 118px;
         font-size: 12px;
         line-height: 26px;
-        color: #424242;
+        color: @color-bg-header;
         font-weight: 400;
-        background-color: #fff;
-        &:hover{
-            color: #8262b5;
+        background-color: @while;
+        &:hover {
+            color: @color-hover;
         }
     }
-
-    .description-product{
+    img {
+        width: 100%;
+    }
+    .description-product {
         width: 267px;
         height: 81px;
         font-size: 14px;
         line-height: 26px;
-        color: #000;
+        color: @black;
         font-weight: 400;
         font-family: @Montserrat-Medium;
         margin: 12px 0 40px 0;
-        .checked{
-            color: yellow;
+        .checked {
+            color: @icon-checked;
         }
-        p{
+        p {
             margin-bottom: 0;
         }
-        .icon-star{
+        .icon-star {
             font-size: 13px;
         }
     }
-    .product-c1{
-        padding-left: 0;
-        button{
+    .product-c1 {
+        position: relative;
+        button {
             left: 5px;
-            top: 280px;
+            bottom: 5px;
         }
     }
-    .product-c2{
-        padding-left: 9px;
-        button{
-            left: 15px;
-            top: 280px;
+    .product-c2 {
+        position: relative;
+        button {
+            left: 5px;
+            bottom: 5px;
         }
     }
-    .product-c3{
-        padding-left: 15px;
-        button{
-            left: 20px;
-            top: 280px;
+    .product-c3 {
+        position: relative;
+        button {
+            left: 5px;
+            bottom: 5px;
         }
     }
-    .product-c4{
-        padding-left: 25px;
-        button{
-            left: 30px;
-            top: 280px;
+    .product-c4 {
+        position: relative;
+        button {
+            left: 5px;
+            bottom: 5px;
         }
     }
 }
