@@ -2,6 +2,11 @@
     .container {
         max-width: 1170px;
     }
+    .blog {
+        .owl-carousel .owl-stage-outer {
+            max-width: 1155px;
+        }
+    }
 
 }
 
@@ -55,22 +60,26 @@
     }
     /* end header */
 
-    .ads {
-        .ads-left {
+    .banner {
+        .banner-left {
             margin: 0 0 20px 0;
             &__btn {
                 left: 53%;
                 top: 57%;
             }
         }
-        .ads-right-top {
+        .banner-right-top {
             margin-bottom: 20px;
-            .text-ads {
-                top: 25%;
+            img {
+                height: 412.5px;
+            }
+
+            .text-banner {
+                top: 42%;
             }
         }
     }
-    /* end ads */
+    /* end banner */
 
     .blog {
         .list-blog {
@@ -107,7 +116,13 @@
             }
             .dropdown {
                 display: block;
-                margin: 5px 10px 0 15px;
+                margin: 0 10px 0 15px;
+                i {
+                    font-size: 22px;
+                }
+                li {
+                    font-size: 14px;
+                }
             }
             &__icon {
                 margin: 5px 15px 0 0;
@@ -115,14 +130,20 @@
         }
     }
     /* end header */
-    .ads {
-        .ads-left {
+    .banner {
+        .banner-left {
             &__btn {
                 left: 42%;
             }
         }
+        .banner-right-top {
+            margin-bottom: 20px;
+            img {
+                height: 302.5px;
+            }
+        }
     }
-    /* end ads */
+    /* end banner */
 
     .footer {
         height: auto;
@@ -155,7 +176,7 @@
                 margin-top: 0;
             }
             p {
-                font-size: 10px;
+                font-size: 14px;
                 margin: 0;
             }
         }
@@ -173,22 +194,25 @@
         }
     }
 
-    .ads {
-        .ads-left {
+    .banner {
+        .banner-left {
             &__btn {
                 p {
                     font-size: 22px;
                 }
             }
         }
-        .ads-right-top {
+        .banner-right-top {
             margin-bottom: 20px;
-            .text-ads {
+            img {
+                height: auto;
+            }
+            .text-banner {
                 top: 36%;
             }
         }
     }
-    /* end ads */
+    /* end banner */
 
     .footer {
         .footer-bottom {
@@ -213,8 +237,8 @@
     }
     /* end header*/
 
-    .ads {
-        .ads-left {
+    .banner {
+        .banner-left {
             &__btn {
                 p {
                     font-size: 4vw;
@@ -222,6 +246,16 @@
             }
         }
     }
-    /* end ads */
+    /* end banner */
 
+}
+
+@media (max-width: 349px) {
+    .footer {
+        .footer-bottom {
+            p {
+                font-size: 12px;
+            }
+        }
+    }
 }

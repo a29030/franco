@@ -109,11 +109,11 @@
         </div>
 </div>
 <div class="container">
-    <div class="ads">
+    <div class="banner">
         <div class="row">
             <div class="col-12 col-xl-8">
-                <div class="ads-left">
-                    <div class="ads-left__btn">
+                <div class="banner-left">
+                    <div class="banner-left__btn">
                         <p>Two High-end Materials</p>
                         <form action="/">
                             <button class="btn-shop-now">Shop Now</button>
@@ -125,20 +125,20 @@
             <div class="col-12 col-xl-4">
                 <div class="row">
                     <div class="col-12 col-md-6 col-xl-12">
-                        <div class="ads-right-top">
+                        <div class="banner-right-top">
                             <img src="img/underheader/anh2.png" alt="">
-                            <div class="text-ads">
-                                <p class="text-ads__p1">SMALL THING</p>
-                                <p class="text-ads__p2">MAKE DIFFERENT</p>
+                            <div class="text-banner">
+                                <p class="text-banner__p1">SMALL THING</p>
+                                <p class="text-banner__p2">MAKE DIFFERENT</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-12">
-                        <div class="ads-right-bottom">
+                        <div class="banner-right-bottom">
                             <img src="img/underheader/anh3.png" alt="">
-                            <div class="ads-right-bottom__btn">
-                                <p class="ads-right-bottom__btn--tagp1">FOLIO</p>
-                                <p class="ads-right-bottom__btn--tagp2">BACKPACK</p>
+                            <div class="banner-right-bottom__btn">
+                                <p class="banner-right-bottom__btn--tagp1">FOLIO</p>
+                                <p class="banner-right-bottom__btn--tagp2">BACKPACK</p>
                                 <form action="/">
                                     <button class="btn-shop-now">Shop Now</button>
                                 </form>
@@ -149,7 +149,7 @@
             </div>
         </div>
     </div>
-    <!--    end div ads-->
+    <!--    end div banner-->
     <div class="products">
         <div class="title">
             <p class="title-p1">FRANCO</p>
@@ -167,11 +167,11 @@
                 <div class="description-product">
                     <p>Suspendisse id volutpat</p>
                     <p class="icon-star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o"></span>
                     </p>
                     <span class="old-price">$99.00</span>
                     <span class="new-price">$84.00</span>
@@ -187,11 +187,11 @@
                 <div class="description-product">
                     <p>Lorem ipsum dolor</p>
                     <p class="icon-star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o"></span>
                     </p>
                     <span class="old-price">$99.00</span>
                     <span class="new-price">$84.00</span>
@@ -207,11 +207,11 @@
                 <div class="description-product">
                     <p>Proin sed nulla mi</p>
                     <p class="icon-star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o"></span>
                     </p>
                     <span class="new-price">$84.00</span>
                 </div>
@@ -226,11 +226,11 @@
                 <div class="description-product">
                     <p>Aenean placerat</p>
                     <p class="icon-star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
                     </p>
                     <span class="old-price">$99.00</span>
                     <span class="new-price">$84.00</span>
@@ -246,11 +246,11 @@
                 <div class="description-product">
                     <p>Suspendisse id volutpat</p>
                     <p class="icon-star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o"></span>
                     </p>
                     <span class="old-price">$99.00</span>
                     <span class="new-price">$84.00</span>
@@ -266,11 +266,11 @@
                 <div class="description-product">
                     <p>Lorem ipsum dolor</p>
                     <p class="icon-star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o"></span>
                     </p>
                     <span class="old-price">$99.00</span>
                     <span class="new-price">$84.00</span>
@@ -286,11 +286,11 @@
                 <div class="description-product">
                     <p>Proin sed nulla mi</p>
                     <p class="icon-star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o"></span>
                     </p>
                     <span class="new-price">$84.00</span>
                 </div>
@@ -305,11 +305,11 @@
                 <div class="description-product">
                     <p>Aenean placerat</p>
                     <p class="icon-star">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
+                        <span class="fa fa-star-o checked"></span>
                     </p>
                     <span class="old-price">$99.00</span>
                     <span class="new-price">$84.00</span>
@@ -329,9 +329,11 @@
         <div class="list-blog">
             <div class="row">
                 <div class="owl-carousel">
-                    <div class="col-xl-4">
+                    <div class="col-xl-12">
                         <div class="item">
-                            <img src="img/blog/blog1.png" alt="">
+                            <a href="">
+                                <img src="img/blog/blog1.png" alt="">
+                            </a>
                             <div class="list-blog__date">
                                 <div class="list-blog__date--border">
                                     <span class="span span-month">Jan</span><br>
@@ -357,9 +359,11 @@
 
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-12">
                         <div class="item">
-                            <img src="img/blog/blog2.png" alt="">
+                            <a href="">
+                                <img src="img/blog/blog2.png" alt="">
+                            </a>
                             <div class="list-blog__date">
                                 <div class="list-blog__date--border">
                                     <span class="span span-month">Jan</span><br>
@@ -385,9 +389,11 @@
 
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-12">
                         <div class="item">
-                            <img src="img/blog/blog3.png" alt="">
+                            <a href="">
+                                <img src="img/blog/blog3.png" alt="">
+                            </a>
                             <div class="list-blog__date">
                                 <div class="list-blog__date--border">
                                     <span class="span span-month">Jan</span><br>
@@ -413,9 +419,12 @@
 
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-12">
                         <div class="item">
-                            <img src="img/blog/blog1.png" alt="">
+                            <a href="">
+                                <img src="img/blog/blog1.png" alt="">
+
+                            </a>
                             <div class="list-blog__date">
                                 <div class="list-blog__date--border">
                                     <span class="span span-month">Jan</span><br>
@@ -441,9 +450,11 @@
 
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-12">
                         <div class="item">
-                            <img src="img/blog/blog2.png" alt="">
+                            <a href="">
+                                <img src="img/blog/blog2.png" alt="">
+                            </a>
                             <div class="list-blog__date">
                                 <div class="list-blog__date--border">
                                     <span class="span span-month">Jan</span><br>
@@ -469,9 +480,11 @@
 
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-12">
                         <div class="item">
-                            <img src="img/blog/blog3.png" alt="">
+                            <a href="">
+                                <img src="img/blog/blog3.png" alt="">
+                            </a>
                             <div class="list-blog__date">
                                 <div class="list-blog__date--border">
                                     <span class="span span-month">Jan</span><br>
@@ -497,9 +510,11 @@
 
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-12">
                         <div class="item">
-                            <img src="img/blog/blog1.png" alt="">
+                            <a href="">
+                                <img src="img/blog/blog1.png" alt="">
+                            </a>
                             <div class="list-blog__date">
                                 <div class="list-blog__date--border">
                                     <span class="span span-month">Jan</span><br>
@@ -525,9 +540,11 @@
 
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-12">
                         <div class="item">
-                            <img src="img/blog/blog2.png" alt="">
+                            <a href="">
+                                <img src="img/blog/blog2.png" alt="">
+                            </a>
                             <div class="list-blog__date">
                                 <div class="list-blog__date--border">
                                     <span class="span span-month">Jan</span><br>
@@ -553,9 +570,11 @@
 
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-12">
                         <div class="item">
-                            <img src="img/blog/blog3.png" alt="">
+                            <a href="">
+                                <img src="img/blog/blog3.png" alt="">
+                            </a>
                             <div class="list-blog__date">
                                 <div class="list-blog__date--border">
                                     <span class="span span-month">Jan</span><br>
@@ -700,24 +719,33 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12 footer-bottom__left">
                     <p>© Copyright 2015 & Made with <span>
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                        </span> by <span>ArrowHitech</span>.</p>
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                        </span> by  <a href=""> ArrowHitech.</a>
+                    </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12 footer-bottom__right">
                     <span>
-                        <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                        <a href="">
+                            <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                        </a>
                     </span>
                     <span>
-                        <i class="fa fa-cc-paypal" aria-hidden="true"></i>
+                        <a href="">
+                            <i class="fa fa-cc-paypal" aria-hidden="true"></i>
+                        </a>
                     </span>
                     <span>
                         <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
                     </span>
                     <span>
-                        <i class="fa fa-cc-discover" aria-hidden="true"></i>
+                        <a href="">
+                            <i class="fa fa-cc-discover" aria-hidden="true"></i>
+                        </a>
                     </span>
                     <span>
-                        <i class="fa fa-cc-amex" aria-hidden="true"></i>
+                        <a href="">
+                            <i class="fa fa-cc-amex" aria-hidden="true"></i>
+                        </a>
                     </span>
                 </div>
             </div>

@@ -6,9 +6,11 @@
 @color-border-bottom: #ddd;
 @color-bg-header: #222;
 @while: #fff;
-@icon-checked: #ffff00;
+@icon-checked: #f8ba04;
 @color-ads-p1: #616161;
 @color-date-bg: #a1d1dd;
+@color-dots: #D6D6D6;
+@color-icon-blog: #c4c4c4;
 body {
     .title {
         margin: 75px 0 50px 0;
@@ -37,6 +39,7 @@ body {
             background-color: @color-hover;
         }
     }
+
     .owl-carousel .owl-nav .owl-prev,
     .owl-carousel .owl-nav .owl-next {
         display: none;
@@ -47,22 +50,29 @@ body {
         margin: 28px 0 0 10px;
         .owl-dot {
             margin-right: 10px;
-            background-color: @color-footer-text;
+            background-color: @color-dots;
             border-radius: 50%;
             width:10px;
             height:10px;
         }
         .active {
             background-color: @color-hover;
-            width:12px;
-            height:12px;
+            width:13px;
+            height:13px;
         }
     }
+
+    .owl-dots .active{
+        outline: none;
+    }
+    button:focus{
+        outline: none;
+    }
 }
-@import "font";
-@import "header";
-@import "ads";
-@import "product";
-@import "blog";
-@import "footer";
-@import "reponsive";
+@import "_font";
+@import "_header";
+@import "_ads";
+@import "_product";
+@import "_blog";
+@import "_footer";
+@import "_reponsive";
