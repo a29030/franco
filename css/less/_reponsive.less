@@ -120,8 +120,14 @@
 
     .header {
         .header-top {
-            span {
+            &__left {
                 font-size: 12px;
+            }
+            &__right {
+                &--span {
+                    font-size: 12px;
+
+                }
             }
             i {
                 font-size: 11px;
@@ -260,6 +266,17 @@
     .header {
         .header-top {
             padding-left: 0;
+            &__left {
+                font-size: 11px;
+                i {
+                    font-size: 9px;
+                }
+            }
+            &__right {
+                &--span {
+                    font-size: 11px;
+                }
+            }
         }
         .header-bottom {
             img {
@@ -299,6 +316,18 @@
 }
 
 @media (max-width: 349px) {
+    .header {
+        .header-top {
+            &__left {
+                font-size: 9px;
+                i {
+                    font-size: 9px;
+                }
+            }
+
+        }
+    }
+
     .footer {
         .footer-bottom {
             p {
