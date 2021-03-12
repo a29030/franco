@@ -9,7 +9,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/owl.carousel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/less/style.less" rel="stylesheet/less" type="text/css"/>
@@ -28,11 +27,11 @@
                 <div class="col-12 col-md-6 header-top__right">
                     <a href="">
                         <i class="fa fa-cog" aria-hidden="true"></i>
-                        <span class="header-top__right--span">Shop Setting</span>
+                        <span class="header-top__right--span header-top__right--span1 ">Shop Setting</span>
                     </a>
                     <a href="">
                         <i class="fa fa-lock" aria-hidden="true"></i>
-                        <span class="header-top__right--span">Member login</span>
+                        <span class="header-top__right--span header-top__right--span2">Member login</span>
                     </a>
                 </div>
             </div>
@@ -46,7 +45,7 @@
                         <img src="img/logo.png" alt="">
                     </a>
                 </div>
-                <div class="col-sm-6 col-lg-8">
+                <div class="col-sm-6 col-lg-8 col-xl-8">
                     <ul class="nav header-bottom__menu">
                         <li class="nav-item">
                             <a class="nav-link" href="#">HOME</a>
@@ -60,11 +59,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">ABOUT US</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">BLOG</a>
+                        <li class="nav-item ">
+                            <a class="nav-link blog-item" href="#">BLOG</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">COLLECTIONS</a>
+                            <a class="nav-link collection-item" href="#">COLLECTIONS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">CONTACT</a>
@@ -77,7 +76,7 @@
 
                     </ul>
                 </div>
-                <div class="col-lg-1 col-sm-3 col-12">
+                <div class="col-lg-1 col-xl-1 col-sm-3 col-12">
                     <div class="row shopping-icon">
                         <div class="dropdown">
                             <button class="btn dropdown-toggle" type="button" data-toggle="dropdown"><i class="fa fa-bars " aria-hidden="true"></i></button>
@@ -151,7 +150,7 @@
     </div>
     <!--    end div banner-->
     <div class="products">
-        <div class="title">
+        <div class="title title-product">
             <p class="title-p1">FRANCO</p>
             <p class="title-p2">FEATURED ITEMS</p>
             <hr class="hr-product">
@@ -321,7 +320,7 @@
 </div>
 <div class="blog">
     <div class="container">
-        <div class="title title-blog">
+        <div class="title title-blog text-center">
             <p class="title-p1">LATEST</p>
             <p class="title-p2">NEWS & EVENTS</p>
             <hr class="hr-blog">
@@ -329,275 +328,248 @@
         <div class="list-blog">
             <div class="row">
                 <div class="owl-carousel">
-                    <div class="col-xl-12">
-                        <div class="item">
+                    <div class="item">
+                        <a href="">
+                            <img src="img/blog/blog1.png" alt="">
+                        </a>
+                        <div class="list-blog__date">
+                            <div class="list-blog__date--border">
+                                <span class="span span-month">Jan</span><br>
+                                <span class="span span-day">23</span>
+                            </div>
+                        </div>
+                        <div class="list-blog__detail">
                             <a href="">
-                                <img src="img/blog/blog1.png" alt="">
+                                <p class="list-blog__detail--title">In commodo dolor vitae</p>
                             </a>
-                            <div class="list-blog__date">
-                                <div class="list-blog__date--border">
-                                    <span class="span span-month">Jan</span><br>
-                                    <span class="span span-day">23</span>
-                                </div>
-                            </div>
-                            <div class="list-blog__detail">
-                                <a href="">
-                                    <p class="list-blog__detail--title">In commodo dolor vitae</p>
-                                </a>
-                                <p class="list-blog__detail--description">
-                                    Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
-                                    elit a lacinia suscipit, orci mauris.
-                                </p>
-                                <hr>
-                                <span>
-                                    <i class="fa fa-comment-o" aria-hidden="true"></i> 12
-                                </span>
-                                <span>
-                                    <i class="fa fa-heart-o" aria-hidden="true"></i> 6
-                                </span>
-                            </div>
-
+                            <p class="list-blog__detail--description">
+                                Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
+                                elit a lacinia suscipit, orci mauris.
+                            </p>
+                            <hr>
+                            <span>
+                                <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                            </span>
+                            <span>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i> 6
+                            </span>
                         </div>
                     </div>
-                    <div class="col-xl-12">
-                        <div class="item">
+                    <div class="item">
+                        <a href="">
+                            <img src="img/blog/blog2.png" alt="">
+                        </a>
+                        <div class="list-blog__date">
+                            <div class="list-blog__date--border">
+                                <span class="span span-month">Jan</span><br>
+                                <span class="span span-day">23</span>
+                            </div>
+                        </div>
+                        <div class="list-blog__detail">
                             <a href="">
-                                <img src="img/blog/blog2.png" alt="">
+                                <p class="list-blog__detail--title">Vivamus non dignissim elit</p>
                             </a>
-                            <div class="list-blog__date">
-                                <div class="list-blog__date--border">
-                                    <span class="span span-month">Jan</span><br>
-                                    <span class="span span-day">23</span>
-                                </div>
-                            </div>
-                            <div class="list-blog__detail">
-                                <a href="">
-                                    <p class="list-blog__detail--title">Vivamus non dignissim elit</p>
-                                </a>
-                                <p class="list-blog__detail--description">
-                                    Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
-                                    elit a lacinia suscipit, orci mauris.
-                                </p>
-                                <hr>
-                                <span>
-                                    <i class="fa fa-comment-o" aria-hidden="true"></i> 12
-                                </span>
-                                <span>
-                                    <i class="fa fa-heart-o" aria-hidden="true"></i> 6
-                                </span>
-                            </div>
-
+                            <p class="list-blog__detail--description">
+                                Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
+                                elit a lacinia suscipit, orci mauris.
+                            </p>
+                            <hr>
+                            <span>
+                                <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                            </span>
+                            <span>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i> 6
+                            </span>
                         </div>
                     </div>
-                    <div class="col-xl-12">
-                        <div class="item">
+                    <div class="item">
+                        <a href="">
+                            <img src="img/blog/blog3.png" alt="">
+                        </a>
+                        <div class="list-blog__date">
+                            <div class="list-blog__date--border">
+                                <span class="span span-month">Jan</span><br>
+                                <span class="span span-day">23</span>
+                            </div>
+                        </div>
+                        <div class="list-blog__detail">
                             <a href="">
-                                <img src="img/blog/blog3.png" alt="">
+                                <p class="list-blog__detail--title">Ut lacinia erat ut diam volutpat</p>
                             </a>
-                            <div class="list-blog__date">
-                                <div class="list-blog__date--border">
-                                    <span class="span span-month">Jan</span><br>
-                                    <span class="span span-day">23</span>
-                                </div>
-                            </div>
-                            <div class="list-blog__detail">
-                                <a href="">
-                                    <p class="list-blog__detail--title">Ut lacinia erat ut diam volutpat</p>
-                                </a>
-                                <p class="list-blog__detail--description">
-                                    Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
-                                    elit a lacinia suscipit, orci mauris.
-                                </p>
-                                <hr>
-                                <span>
-                                    <i class="fa fa-comment-o" aria-hidden="true"></i> 12
-                                </span>
-                                <span>
-                                    <i class="fa fa-heart-o" aria-hidden="true"></i> 6
-                                </span>
-                            </div>
-
+                            <p class="list-blog__detail--description">
+                                Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
+                                elit a lacinia suscipit, orci mauris.
+                            </p>
+                            <hr>
+                            <span>
+                                <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                            </span>
+                            <span>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i> 6
+                            </span>
                         </div>
                     </div>
-                    <div class="col-xl-12">
-                        <div class="item">
+                    <div class="item">
+                        <a href="">
+                            <img src="img/blog/blog1.png" alt="">
+
+                        </a>
+                        <div class="list-blog__date">
+                            <div class="list-blog__date--border">
+                                <span class="span span-month">Jan</span><br>
+                                <span class="span span-day">23</span>
+                            </div>
+                        </div>
+                        <div class="list-blog__detail">
                             <a href="">
-                                <img src="img/blog/blog1.png" alt="">
-
+                                <p class="list-blog__detail--title">In commodo dolor vitae</p>
                             </a>
-                            <div class="list-blog__date">
-                                <div class="list-blog__date--border">
-                                    <span class="span span-month">Jan</span><br>
-                                    <span class="span span-day">23</span>
-                                </div>
-                            </div>
-                            <div class="list-blog__detail">
-                                <a href="">
-                                    <p class="list-blog__detail--title">In commodo dolor vitae</p>
-                                </a>
-                                <p class="list-blog__detail--description">
-                                    Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
-                                    elit a lacinia suscipit, orci mauris.
-                                </p>
-                                <hr>
-                                <span>
-                                    <i class="fa fa-comment-o" aria-hidden="true"></i> 12
-                                </span>
-                                <span>
-                                    <i class="fa fa-heart-o" aria-hidden="true"></i> 6
-                                </span>
-                            </div>
-
+                            <p class="list-blog__detail--description">
+                                Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
+                                elit a lacinia suscipit, orci mauris.
+                            </p>
+                            <hr>
+                            <span>
+                                <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                            </span>
+                            <span>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i> 6
+                            </span>
                         </div>
                     </div>
-                    <div class="col-xl-12">
-                        <div class="item">
+                    <div class="item">
+                        <a href="">
+                            <img src="img/blog/blog2.png" alt="">
+                        </a>
+                        <div class="list-blog__date">
+                            <div class="list-blog__date--border">
+                                <span class="span span-month">Jan</span><br>
+                                <span class="span span-day">23</span>
+                            </div>
+                        </div>
+                        <div class="list-blog__detail">
                             <a href="">
-                                <img src="img/blog/blog2.png" alt="">
+                                <p class="list-blog__detail--title">Vivamus non dignissim elit</p>
                             </a>
-                            <div class="list-blog__date">
-                                <div class="list-blog__date--border">
-                                    <span class="span span-month">Jan</span><br>
-                                    <span class="span span-day">23</span>
-                                </div>
-                            </div>
-                            <div class="list-blog__detail">
-                                <a href="">
-                                    <p class="list-blog__detail--title">Vivamus non dignissim elit</p>
-                                </a>
-                                <p class="list-blog__detail--description">
-                                    Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
-                                    elit a lacinia suscipit, orci mauris.
-                                </p>
-                                <hr>
-                                <span>
-                                    <i class="fa fa-comment-o" aria-hidden="true"></i> 12
-                                </span>
-                                <span>
-                                    <i class="fa fa-heart-o" aria-hidden="true"></i> 6
-                                </span>
-                            </div>
-
+                            <p class="list-blog__detail--description">
+                                Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
+                                elit a lacinia suscipit, orci mauris.
+                            </p>
+                            <hr>
+                            <span>
+                                <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                            </span>
+                            <span>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i> 6
+                            </span>
                         </div>
                     </div>
-                    <div class="col-xl-12">
-                        <div class="item">
+                    <div class="item">
+                        <a href="">
+                            <img src="img/blog/blog3.png" alt="">
+                        </a>
+                        <div class="list-blog__date">
+                            <div class="list-blog__date--border">
+                                <span class="span span-month">Jan</span><br>
+                                <span class="span span-day">23</span>
+                            </div>
+                        </div>
+                        <div class="list-blog__detail">
                             <a href="">
-                                <img src="img/blog/blog3.png" alt="">
+                                <p class="list-blog__detail--title">Ut lacinia erat ut diam volutpat</p>
                             </a>
-                            <div class="list-blog__date">
-                                <div class="list-blog__date--border">
-                                    <span class="span span-month">Jan</span><br>
-                                    <span class="span span-day">23</span>
-                                </div>
-                            </div>
-                            <div class="list-blog__detail">
-                                <a href="">
-                                    <p class="list-blog__detail--title">Ut lacinia erat ut diam volutpat</p>
-                                </a>
-                                <p class="list-blog__detail--description">
-                                    Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
-                                    elit a lacinia suscipit, orci mauris.
-                                </p>
-                                <hr>
-                                <span>
-                                    <i class="fa fa-comment-o" aria-hidden="true"></i> 12
-                                </span>
-                                <span>
-                                    <i class="fa fa-heart-o" aria-hidden="true"></i> 6
-                                </span>
-                            </div>
-
+                            <p class="list-blog__detail--description">
+                                Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
+                                elit a lacinia suscipit, orci mauris.
+                            </p>
+                            <hr>
+                            <span>
+                                <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                            </span>
+                            <span>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i> 6
+                            </span>
                         </div>
                     </div>
-                    <div class="col-xl-12">
-                        <div class="item">
+                    <div class="item">
+                        <a href="">
+                            <img src="img/blog/blog1.png" alt="">
+                        </a>
+                        <div class="list-blog__date">
+                            <div class="list-blog__date--border">
+                                <span class="span span-month">Jan</span><br>
+                                <span class="span span-day">23</span>
+                            </div>
+                        </div>
+                        <div class="list-blog__detail">
                             <a href="">
-                                <img src="img/blog/blog1.png" alt="">
+                                <p class="list-blog__detail--title">In commodo dolor vitae</p>
                             </a>
-                            <div class="list-blog__date">
-                                <div class="list-blog__date--border">
-                                    <span class="span span-month">Jan</span><br>
-                                    <span class="span span-day">23</span>
-                                </div>
-                            </div>
-                            <div class="list-blog__detail">
-                                <a href="">
-                                    <p class="list-blog__detail--title">In commodo dolor vitae</p>
-                                </a>
-                                <p class="list-blog__detail--description">
-                                    Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
-                                    elit a lacinia suscipit, orci mauris.
-                                </p>
-                                <hr>
-                                <span>
-                                    <i class="fa fa-comment-o" aria-hidden="true"></i> 12
-                                </span>
-                                <span>
-                                    <i class="fa fa-heart-o" aria-hidden="true"></i> 6
-                                </span>
-                            </div>
-
+                            <p class="list-blog__detail--description">
+                                Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
+                                elit a lacinia suscipit, orci mauris.
+                            </p>
+                            <hr>
+                            <span>
+                                <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                            </span>
+                            <span>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i> 6
+                            </span>
                         </div>
                     </div>
-                    <div class="col-xl-12">
-                        <div class="item">
+                    <div class="item">
+                        <a href="">
+                            <img src="img/blog/blog2.png" alt="">
+                        </a>
+                        <div class="list-blog__date">
+                            <div class="list-blog__date--border">
+                                <span class="span span-month">Jan</span><br>
+                                <span class="span span-day">23</span>
+                            </div>
+                        </div>
+                        <div class="list-blog__detail">
                             <a href="">
-                                <img src="img/blog/blog2.png" alt="">
+                                <p class="list-blog__detail--title">Vivamus non dignissim elit</p>
                             </a>
-                            <div class="list-blog__date">
-                                <div class="list-blog__date--border">
-                                    <span class="span span-month">Jan</span><br>
-                                    <span class="span span-day">23</span>
-                                </div>
-                            </div>
-                            <div class="list-blog__detail">
-                                <a href="">
-                                    <p class="list-blog__detail--title">Vivamus non dignissim elit</p>
-                                </a>
-                                <p class="list-blog__detail--description">
-                                    Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
-                                    elit a lacinia suscipit, orci mauris.
-                                </p>
-                                <hr>
-                                <span>
-                                    <i class="fa fa-comment-o" aria-hidden="true"></i> 12
-                                </span>
-                                <span>
-                                    <i class="fa fa-heart-o" aria-hidden="true"></i> 6
-                                </span>
-                            </div>
-
+                            <p class="list-blog__detail--description">
+                                Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
+                                elit a lacinia suscipit, orci mauris.
+                            </p>
+                            <hr>
+                            <span>
+                                <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                            </span>
+                            <span>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i> 6
+                            </span>
                         </div>
                     </div>
-                    <div class="col-xl-12">
-                        <div class="item">
+                    <div class="item">
+                        <a href="">
+                            <img src="img/blog/blog3.png" alt="">
+                        </a>
+                        <div class="list-blog__date">
+                            <div class="list-blog__date--border">
+                                <span class="span span-month">Jan</span><br>
+                                <span class="span span-day">23</span>
+                            </div>
+                        </div>
+                        <div class="list-blog__detail">
                             <a href="">
-                                <img src="img/blog/blog3.png" alt="">
+                                <p class="list-blog__detail--title">Ut lacinia erat ut diam volutpat</p>
                             </a>
-                            <div class="list-blog__date">
-                                <div class="list-blog__date--border">
-                                    <span class="span span-month">Jan</span><br>
-                                    <span class="span span-day">23</span>
-                                </div>
-                            </div>
-                            <div class="list-blog__detail">
-                                <a href="">
-                                    <p class="list-blog__detail--title">Ut lacinia erat ut diam volutpat</p>
-                                </a>
-                                <p class="list-blog__detail--description">
-                                    Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
-                                    elit a lacinia suscipit, orci mauris.
-                                </p>
-                                <hr>
-                                <span>
-                                    <i class="fa fa-comment-o" aria-hidden="true"></i> 12
-                                </span>
-                                <span>
-                                    <i class="fa fa-heart-o" aria-hidden="true"></i> 6
-                                </span>
-                            </div>
-
+                            <p class="list-blog__detail--description">
+                                Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit,
+                                elit a lacinia suscipit, orci mauris.
+                            </p>
+                            <hr>
+                            <span>
+                                <i class="fa fa-comment-o" aria-hidden="true"></i> 12
+                            </span>
+                            <span>
+                                <i class="fa fa-heart-o" aria-hidden="true"></i> 6
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -683,7 +655,8 @@
                                 <i class="fa fa-map-o" aria-hidden="true"></i>
                             </span>
                             <span>
-                                500 Hennessy Road Causeway Bay, Hong Kong
+                                500 Hennessy Road<br>
+                                &emsp;&emsp;Causeway Bay, Hong Kong
                             </span>
                             </p>
                         </a>
@@ -692,7 +665,7 @@
                             <span>
                                 <i class="fa fa-phone" aria-hidden="true"></i>
                             </span>
-                            <span>
+                            <span class="fa-phone-text">
                                 +1 23456789
                             </span>
                             </p>
@@ -702,8 +675,8 @@
                             <span>
                                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
                             </span>
-                            <span>
-                                contact@y ourdomain.com
+                            <span >
+                                contact@yourdomain.com
                             </span>
                             </p>
                         </a>
@@ -717,13 +690,13 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-12 footer-bottom__left">
+                <div class="col-md-6 col-12 order-2 order-md-1 footer-bottom__left">
                     <p>© Copyright 2015 & Made with <span>
                         <i class="fa fa-heart" aria-hidden="true"></i>
                         </span> by  <a href=""> ArrowHitech.</a>
                     </p>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12 footer-bottom__right">
+                <div class="col-md-6 col-12 order-1 order-md-2 footer-bottom__right">
                     <span>
                         <a href="">
                             <i class="fa fa-cc-visa" aria-hidden="true"></i>
